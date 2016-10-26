@@ -397,7 +397,7 @@ form > table > tbody > tr > td > table:nth-child(0n + 4) {
                             width: 100%;
                             position: relative;
                             padding-right: 50px;
-                            padding-left: 0;
+                            padding-left: $padding-base;
                         }
                 }
 
@@ -494,6 +494,12 @@ table[bgcolor="bfbfbf"],
 tr[bgcolor="bfbfbf"],
 form > table table:last-child > tbody > tr > td:last-child > table:nth-child(0n+2) {
     background: $content-bg;
+}
+
+form > table table:last-child > tbody > tr > td:last-child > table:nth-child(2) {
+    tr[bgcolor="bfbfbf"][align="right"]:hover {
+        background: $gray-lighter;
+    }
 }
 
 table[bgcolor="bfbfbf"],

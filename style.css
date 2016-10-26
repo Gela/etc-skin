@@ -2446,7 +2446,7 @@ form > table > tbody > tr > td > table:nth-child(0n + 4) {
           width: 100%;
           position: relative;
           padding-right: 50px;
-          padding-left: 0; }
+          padding-left: 5px; }
       form > table > tbody > tr > td > table:nth-child(0n + 4) > tbody > tr > td:last-child > table:nth-child(0n + 2) > tbody > tr:first-child td,
       form > table > tbody > tr > td > table:nth-child(0n + 4) > tbody > tr > td:last-child > table:nth-child(0n + 2) > tbody > tr:nth-child(0n + 2) td {
         padding: 0;
@@ -2657,6 +2657,9 @@ table[bgcolor="bfbfbf"],
 tr[bgcolor="bfbfbf"],
 form > table table:last-child > tbody > tr > td:last-child > table:nth-child(0n+2) {
   background: #FFF; }
+
+form > table table:last-child > tbody > tr > td:last-child > table:nth-child(2) tr[bgcolor="bfbfbf"][align="right"]:hover {
+  background: #EFF3F6; }
 
 table[bgcolor="bfbfbf"],
 form > table table:last-child > tbody > tr > td:last-child > table:nth-child(0n+2) {
