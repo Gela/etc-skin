@@ -51,6 +51,9 @@ module.exports = function(grunt) {
           src: 'manifest.json',
           dest: 'etc_extension/'
         }, {
+          src: 'background.js',
+          dest: 'etc_extension/'
+        }, {
           expand: true,
           flatten: true,
           src: 'bower_components/font-awesome/fonts/*',
